@@ -5,17 +5,18 @@
 #game {
     width: 100%;
     height: 600px;
-    background-color: #8d3cff;
+    background-image: url('../images/sky.png');
 }
 
 .bird {
     position: absolute;
     left: 50%;
+    transform: translateX(-50%);
     margin-left: 15px;
     width: 30px;
     height: 30px;
-    background-color: red;
     top: 300px;
+    background-image: url('../images/birds.png');
 }
 
 .start {
@@ -26,7 +27,7 @@
     text-align: center;
     position: absolute;
     left: 50%;
-    margin-left: -100px;
+    transform: translateX(-50%);
     top: 350px;
 }
 
